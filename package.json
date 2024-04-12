@@ -42,7 +42,6 @@
   },
   "devDependencies": {
     "@stdlib/complex-base-parse-lib": "github:stdlib-js/complex-base-parse-lib#main",
-    "@stdlib/complex-base-parse-package.json": "github:stdlib-js/complex-base-parse-package.json#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",

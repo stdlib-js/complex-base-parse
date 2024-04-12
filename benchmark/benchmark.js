@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench-harness' );
 var parse = require( '@stdlib/complex-base-parse-lib' );
-var pkg = require( '@stdlib/complex-base-parse-package.json' ).name;
+var pkg = require( './../package.json' ).name;
 
 
 // MAIN //
