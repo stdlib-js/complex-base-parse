@@ -21,7 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench-harness' );
-var parse = require( '@stdlib/complex-base-parse-lib' );
+var parse = require( './../lib' );
 var pkg = require( './../package.json' ).name;
 
 
