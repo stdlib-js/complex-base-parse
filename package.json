@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-base-parse",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Parses a string representing a complex number into a complex like object.",
   "license": "Apache-2.0",
   "author": {
