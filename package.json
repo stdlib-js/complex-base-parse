@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-base-parse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Parses a string representing a complex number into a complex like object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/number-ctor": "^0.2.1",
-    "@stdlib/string-replace": "^0.2.1"
+    "@stdlib/number-ctor": "^0.2.2",
+    "@stdlib/string-replace": "^0.2.2"
   },
   "devDependencies": {
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
