@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/number-ctor": "^0.2.2",
     "@stdlib/string-replace": "^0.2.2",
-    "@stdlib/types": "^0.4.1"
+    "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
