@@ -16,19 +16,29 @@
 * limitations under the License.
 */
 
-import parse = require( './index' );
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ComplexLike } from '@stdlib/types/complex';
+
+/**
+* Parses a string representing a complex number into a complex like object.
+*
+* @param str - input string
+* @returns complex like object
+*
+* @example
+* var parse = require( '@stdlib/complex-base-parse' );
+*
+* var str = '4 + 6i';
+*
+* var z = parse( str );
+* // returns { re : 4, im : 6 }
+*/
+declare function parse( str: string ): ComplexLike | null;
 
 
-// TESTS //
+// EXPORTS //
 
-// The function returns a complex like object...
-{
-	const str = '54 + 3i';
-	parse( str ); // $ExpectType ComplexLike | null
-}
-
-// The compiler throws an error if the function is provided insufficient arguments...
-{
-	parse(); // $ExpectError
-	parse( 'beep', 'boop' ); // $ExpectError
-}
+export = parse;
