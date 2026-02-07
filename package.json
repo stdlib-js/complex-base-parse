@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-base-parse",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parse a string representing a complex number into a complex like object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/number-ctor": "^0.2.2",
+    "@stdlib/number-ctor": "^0.2.3",
     "@stdlib/string-replace": "^0.2.2",
     "@stdlib/types": "^0.4.3"
   },
