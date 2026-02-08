@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```js
-import parse from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-parse@deno/mod.js';
+import parse from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-parse@v0.1.2-deno/mod.js';
 ```
 
 #### parse( str )
@@ -60,7 +60,7 @@ import parse from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-parse@deno
 Parses a string representing a complex number into a complex like object.
 
 ```js
-import parse from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-parse@deno/mod.js';
+import parse from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-parse@v0.1.2-deno/mod.js';
 
 var str = '5 + 3i';
 
@@ -89,7 +89,7 @@ var z = parse( str );
 <!-- eslint no-undef: "error" -->
 
 ```js
-import parse from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-parse@deno/mod.js';
+import parse from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-base-parse@v0.1.2-deno/mod.js';
 
 var str;
 var z;
