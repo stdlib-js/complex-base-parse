@@ -38,14 +38,14 @@
   },
   "dependencies": {
     "@stdlib/number-ctor": "^0.2.3",
-    "@stdlib/string-replace": "^0.2.2",
+    "@stdlib/string-replace": "^0.2.3",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
